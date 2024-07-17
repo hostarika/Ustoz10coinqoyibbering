@@ -1,0 +1,65 @@
+.back{
+    background-color: #2B3844;
+    color: white;
+    width: 480px;
+    height: 56px;
+    padding: 20px 40px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.tekst{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.osnova{
+    display: flex;
+}
+.haqida{
+    margin-left: 100px;
+color: white;
+}
+.germaniya{
+    width: 480px;
+}
+@media (max-width:776px){
+.germaniya{
+    width: 280px;
+}
+.haqida{
+    margin-left: 30px;
+}
+.tekst{
+    width: 300px;
+}
+.back{
+    width: 280px;
+    height: 36px;
+    padding: 10px 20px;
+}
+.osnova{
+    display: inline;
+}
+}
+@media (max-width:576px){
+    .germaniya{
+        width: 200px;
+    }
+    .haqida{
+        margin-left: 20px;
+    }
+    .tekst{
+        width: 250px;
+    }
+    .back{
+        width: 250px;
+        height: 32px;
+        padding: 8px 16px;
+    }
+    .osnova{
+        display: inline;
+    }
+    }
